@@ -1,7 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-const BASE_URL = 'https://piabay.com/api/';
+const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '43029074-bbcb488b86e9977f1b5ed3d25';
 const spinner = document.querySelector('.loader-container');
 

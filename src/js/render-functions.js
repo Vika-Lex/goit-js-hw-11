@@ -4,7 +4,7 @@ export function creatMarkup(arr) {
       return `
       <li>
       <a href="${element.largeImageURL}" alt="${element.tags}">
-      <img width="300" src="${element.webformatURL}"/>
+      <img width="300" src="${element.webformatURL}" alt="${element.tags}"/>
       <ul class="gallery__description-list gallery-description-list">
          <li class="gallery-description-list__item">
            <h3>Likes</h3>
